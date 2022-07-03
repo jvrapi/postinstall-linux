@@ -85,8 +85,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 # ---------------------------------------------------------------------- #
 
 # Sobrescrevendo arquivo zshrc
-git clone https://gist.github.com/b38909ea84c9e397fc290b8acd4e0083.git "$DIRETORIO_DOWNLOADS"
-cp -f "$DIRETORIO_DOWNLOADS/b38909ea84c9e397fc290b8acd4e0083/.zshrc" ~/
+curl -o ~/.zshrc https://raw.githubusercontent.com/jvrapi/postinstall-linux/0e530fcc22ca8e793853938321a4e9e347eba4cf/.zshrc
 # ---------------------------------------------------------------------- #
 
 
