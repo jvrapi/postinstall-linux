@@ -95,7 +95,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.zshrc
 # ---------------------------------------------------------------------- #
 
-
+# Instalar node e yarn
+nvm install --lts
+npm -i -g yarn
+# ---------------------------------------------------------------------- #
 
 
 # ----------------------------- PÓS-INSTALAÇÃO ----------------------------- #
