@@ -13,8 +13,6 @@ PROGRAMAS_PARA_INSTALAR=(
   git
   build-essential 
   libssl-dev 
-  flatpak 
-  gnome-software-plugin-flatpak
   zsh
 )
 
@@ -56,8 +54,7 @@ for nome_do_programa in ${PROGRAMAS_PARA_INSTALAR[@]}; do
   fi
 done
 
-## Instalando pacotes Flatpak ##
-flatpak install flathub com.obsproject.Studio -y
+
 
 ## Instalando pacotes Snap ##
 sudo snap install spotify
